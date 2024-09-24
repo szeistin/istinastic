@@ -1,0 +1,46 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Trebuchet MS';
+}
+
+body {
+   background-color: #ffeaee;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100%;
+}
+
+table {
+   border: 1px solid black;
+   width: 500px;
+   background-color: pink;
+}
+
+td {
+   border: 1px solid black;
+   text-align: left;
+   padding: 8px;
+   background-color: #fff9fa;
+}
+
+.image {
+   object-fit: cover;
+   text-align: center;
+   width: 150px;
+   height: 150px;
+}
+
+div {
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height: 100%;
+}

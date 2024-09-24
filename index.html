@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Bootstrap Test</title>
+      <link rel="stylesheet" href="style.css" />
+      <link
+         rel="stylesheet"
+         href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+      />
+   </head>
+   <body>
+      <div class="container">
+         <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="headingOne">
+                  <button
+                     class="accordion-button"
+                     type="button"
+                     data-bs-toggle="collapse"
+                     data-bs-target="#collapseOne"
+                     aria-expanded="true"
+                     aria-controls="collapseOne"
+                  >
+                     Final Resume
+                  </button>
+               </h2>
+               <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+               >
+                  <div class="accordion-body">
+                     Go to <a href="final-resume.html">final resume</a>.
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="index.js"></script>
+   </body>
+</html>
